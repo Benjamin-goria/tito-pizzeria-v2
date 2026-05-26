@@ -1,0 +1,242 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(188, 123, 50);
+  padding-top: 65px;
+  overflow-x: hidden;
+}
+
+h1 { 
+  font-family: "Saira Stencil", sans-serif; 
+  color: rgb(61, 105, 55); 
+}
+h2 { 
+  font-family: "Bebas Neue", sans-serif; 
+  color: brown; 
+}
+h3 {
+   font-family: "Gothic A1", sans-serif; 
+  color: aqua;
+ }
+ol  { 
+  font-family: "Gothic A1", sans-serif; 
+  font-size: 1rem; 
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(152, 49, 49);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  gap: 8px;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
+.menu {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  position: relative;
+  width: 10px;
+}
+
+.menu a {
+  color: rgb(39, 174, 21);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.contenedor2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;         
+  border-radius: 8px; 
+  position: relative;
+  }
+
+
+.listamenu {
+  position: absolute;       
+  left: 30%;        
+  color: white; 
+}
+
+.listamenu ol {
+  padding: 150px 100px 100px 150px;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.listamenu h2 {
+  color: #fff;  
+}
+.menu a:hover { color: #ffffff; }
+
+.toda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  padding: 16px;
+}
+.contenedor3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;         
+  border-radius: 8px; 
+  position: relative;
+  }
+
+
+.listapromos {
+  position: absolute;       
+  left: 10%;        
+  color: white; 
+}
+
+.listapromos ol {
+  padding: 150px 150px 250px 150px;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.listapromos h2 {
+  color: #fff;  
+}
+.contenedor4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;         
+  border-radius: 8px; 
+  position: relative;
+  }
+
+
+.listaingresos {
+  position: absolute;       
+  left: 5%;        
+  color: white; 
+}
+
+.listaingresos ol {
+  padding: 150px 150px 250px 150px;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.listaingresos h2 {
+  color: #fff;  
+}
+.contenedor6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;         
+  border-radius: 8px; 
+  position: relative;
+  }
+
+
+.listabebidas{
+  position: absolute;       
+  left: 3%;        
+  color: white; 
+}
+
+.listabebidas ol {
+  padding: 150px 150px 250px 150px;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.listabebidas h2 {
+  color: #fff;  
+}
+
+
+
+.contenedor,
+.contenedor2,
+.contenedor3,
+.contenedor4,
+.contenedor6,
+.contenedor7,
+.contenedor8 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;         
+  border-radius: 8px;       
+}
+
+.contenedor6 {
+   background-color: blueviolet; }
+.contenedor8 {
+   background-color: rgb(151, 41, 41); 
+   padding: 20px 0;
+   }
+
+.contenedor img,
+.contenedor2 img,
+.contenedor3 img,
+.contenedor4 img,
+.contenedor6 img,
+.contenedor7 img,
+.contenedor5 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contenedor8 video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  display: block;
+}
+
+footer {
+  padding: 16px;
+  background-color: rgb(188, 123, 50);
+}
+
+.contenedor5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor5 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
